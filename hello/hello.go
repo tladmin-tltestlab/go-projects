@@ -11,7 +11,7 @@ func main() {
 	// Set properties of the predefined Logger, including
 	// the log entry prefix and a flag to disable printing
 	// the time, source file, and line number.
-	// test comment
+	// another test comment
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 
