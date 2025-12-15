@@ -11,7 +11,7 @@ func main() {
 	// Set properties of the predefined Logger, including
 	// the log entry prefix and a flag to disable printing
 	// the time, source file, and line number.
-	// this commit should fail due to branch protection
+	// this commit should require an approved PR due to branch protection
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
 
