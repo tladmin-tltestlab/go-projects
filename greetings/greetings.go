@@ -15,9 +15,7 @@ func Hello(name string) (string, error) {
 
 	// If a name was received, return a value that embeds the name
 	// in a greeting message.
-	//message := fmt.Sprintf(randomFormat(), name)
-	//adding new message without name function to deliberately break and prove go test functionality
-	message := fmt.Sprint(randomFormat())
+	message := fmt.Sprintf(randomFormat(), name)
 	return message, nil
 }
 
