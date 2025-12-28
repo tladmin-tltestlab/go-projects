@@ -45,7 +45,7 @@ func randomFormat() string {
 	formats := []string{
 		"Hi, %v. Welcome!",
 		"Great to see you, %v!",
-		"Amazing work %v, really good effort!"
+		"Amazing work %v, really good effort!",
 		"Hail, %v! Well met!",
 	}
 
